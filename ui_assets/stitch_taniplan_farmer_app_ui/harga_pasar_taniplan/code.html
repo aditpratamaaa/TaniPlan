@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+
+<html lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><title>TaniPlan</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@28,700,0..1,0&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;background-color:#f9f9ff;color:#141b2b;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}.material-symbols-outlined{font-variation-settings:'FILL' 1,'wght' 700,'GRAD' 0,'opsz' 28;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "tertiary-fixed-dim": "#ffb4ab", "secondary-fixed": "#b1f2be", "surface-container-low": "#f1f3ff", "error": "#ba1a1a", "surface-bright": "#f9f9ff", "primary": "#00652c", "secondary-container": "#b1f2be", "on-surface-variant": "#3f493f", "on-primary": "#ffffff", "on-tertiary": "#ffffff", "primary-container": "#15803d", "surface-container": "#e9edff", "surface-dim": "#d3daef", "tertiary-container": "#d82324", "on-secondary-container": "#347047", "on-surface": "#141b2b", "surface-tint": "#006d30", "on-primary-container": "#d3ffd5", "secondary-fixed-dim": "#96d5a3", "tertiary": "#b20010", "outline": "#6f7a6e", "on-background": "#141b2b", "inverse-on-surface": "#edf0ff", "tertiary-fixed": "#ffdad6", "primary-fixed": "#95f8a7", "outline-variant": "#becabc", "surface": "#f9f9ff", "on-tertiary-fixed-variant": "#93000b", "error-container": "#ffdad6", "on-error-container": "#93000a", "on-primary-fixed": "#00210a", "secondary": "#2e6a41", "inverse-primary": "#79db8d", "on-primary-fixed-variant": "#005323", "on-secondary": "#ffffff", "on-secondary-fixed": "#00210d", "primary-fixed-dim": "#79db8d", "surface-variant": "#dce2f7", "on-tertiary-container": "#fff1ef", "surface-container-high": "#e1e8fd", "on-secondary-fixed-variant": "#12512c", "background": "#f9f9ff", "surface-container-lowest": "#ffffff", "on-tertiary-fixed": "#410002", "surface-container-highest": "#dce2f7", "on-error": "#ffffff", "inverse-surface": "#293040" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-sm": "0.75rem", "space-lg": "1.75rem", "space-xs": "0.375rem", "gutter": "1rem", "space-xl": "2.5rem", "margin": "1.25rem", "space-md": "1.25rem" }, fontFamily: { "headline-xl": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "body-xl": ["Plus Jakarta Sans"] }, fontSize: { "headline-xl": ["32px", { lineHeight: "40px", letterSpacing: "-0.02em", fontWeight: "800" }], "label-lg": ["18px", { lineHeight: "24px", letterSpacing: "0.01em", fontWeight: "800" }], "body-md": ["16px", { lineHeight: "26px", fontWeight: "500" }], "label-md": ["16px", { lineHeight: "22px", letterSpacing: "0.01em", fontWeight: "700" }], "headline-lg": ["26px", { lineHeight: "34px", letterSpacing: "-0.01em", fontWeight: "800" }], "label-sm": ["15px", { lineHeight: "20px", fontWeight: "700" }], "body-lg": ["18px", { lineHeight: "28px", fontWeight: "500" }], "headline-md": ["22px", { lineHeight: "30px", fontWeight: "700" }], "headline-sm": ["20px", { lineHeight: "28px", fontWeight: "700" }], "body-xl": ["19px", { lineHeight: "28px", fontWeight: "500" }] } } } };</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 inset-x-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] pt-safe"><div class="h-20 px-margin flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm"><img alt="TaniPlan Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAvoP4eHExTACh9u6llYqLfJvfEvFtk-oxZRDzNKQMC6JULBEdsGRsKidnWuDjEHfH9z_jyrN5ugqQnWj58VYhnky48bRNqOWb1wdQzMRS8EEdUvvHoS9VwBmsnX0r-C9YvkCoXPBhXhogw4erIjbaIczB1yySUnrQJ1XAo097KSlsKhECnLAS1jfvbVZILKFRteasbl4S54WQAYnAt3El_Sm4QRCY8gx1r7Z26hSi_ks2L2JWOT-rU4g"/><div class="flex flex-col"><span class="font-label-sm text-label-sm text-primary uppercase tracking-wider">TaniPlan</span><h1 class="font-headline-sm text-headline-sm text-on-surface">Harga Pasar</h1></div></div><div class="flex items-center gap-space-xs"><button aria-label="Bantuan Suara" class="w-11 h-11 flex items-center justify-center rounded-full bg-surface-container text-primary active:scale-95"><span class="material-symbols-outlined text-[26px]">volume_up</span></button><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBT5i0k80WWA7fAkhzZlMwdxjXWXcFfR0gsBOdzgQfO1ZWgRrQUteltFb9Gk841eec_sIjX31W0Lj10lKv9BkIUyzHcGzZEcM8_yAo19WfDvFebVxDGiX_s10UP4V0KmozTW3HA73GLyoNfI3v34XePXRX2LGdz5LqbFw3AbgvNq4zT0gLGKBZvlD14sgZYft9uk_BCreEOPkn-ly_c36FPsw184dyJf4IJ_wrjalIZqWg6d3JnpI5QHw"/></div></div></header><main class="flex-1 flex flex-col relative w-full px-margin pt-20 pb-28 bg-surface"><div class="flex flex-col w-full pb-6 space-y-space-md">
+<!-- Top Market Status Brief -->
+<section class="flex flex-col bg-surface-container-lowest p-space-md rounded-xl shadow-sm space-y-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-headline-sm text-headline-sm text-on-surface">Harga Pasar Hari Ini</span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+<span class="w-2.5 h-2.5 rounded-full bg-primary animate-pulse"></span>
+        Aktif
+      </span>
+</div>
+<div class="flex items-center text-on-surface-variant font-label-sm text-label-sm gap-1.5">
+<span aria-hidden="true" class="material-symbols-outlined text-[20px] text-primary">location_on</span>
+<span>Update: 4 Oktober 2026 • Wilayah Jawa Timur</span>
+</div>
+<div class="flex items-center gap-1.5 pt-1 text-on-surface-variant font-body-md text-body-md">
+<span aria-hidden="true" class="material-symbols-outlined text-[18px]">schedule</span>
+<span>Diperbarui otomatis tiap jam 06:00 WIB</span>
+</div>
+</section>
+<!-- Search & Filter Controls -->
+<section aria-label="Pencarian Komoditas" class="flex flex-col space-y-space-sm">
+<div class="relative w-full">
+<div class="absolute inset-y-0 left-0 pl-space-md flex items-center pointer-events-none text-primary">
+<span aria-hidden="true" class="material-symbols-outlined text-[30px]">search</span>
+</div>
+<input aria-label="Cari nama komoditas" class="w-full h-14 pl-14 pr-space-md bg-surface-container-lowest text-on-surface placeholder:text-outline font-label-md text-label-md rounded-xl shadow-sm focus:outline-none focus:bg-surface-container-low transition-all" id="commodity-search" placeholder="Cari komoditas (misal: Cabai, Padi)..." type="search"/>
+</div>
+<!-- Category Pills for quick tactile selection -->
+<div aria-label="Kategori Komoditas" class="flex items-center gap-2 overflow-x-auto py-1 no-scrollbar" role="tablist">
+<button aria-pressed="true" class="category-chip px-space-md h-12 rounded-full font-label-md text-label-md flex items-center justify-center gap-1.5 bg-primary text-on-primary shadow-sm shrink-0 active:scale-95 transition-transform" data-cat="all" type="button">
+<span aria-hidden="true" class="material-symbols-outlined text-[20px]">check</span>
+<span>Semua</span>
+</button>
+<button aria-pressed="false" class="category-chip px-space-md h-12 rounded-full font-label-md text-label-md flex items-center justify-center bg-surface-container-lowest text-on-surface shadow-sm shrink-0 active:scale-95 transition-transform" data-cat="padi" type="button">
+<span>Beras & Padi</span>
+</button>
+<button aria-pressed="false" class="category-chip px-space-md h-12 rounded-full font-label-md text-label-md flex items-center justify-center bg-surface-container-lowest text-on-surface shadow-sm shrink-0 active:scale-95 transition-transform" data-cat="cabai" type="button">
+<span>Cabai</span>
+</button>
+<button aria-pressed="false" class="category-chip px-space-md h-12 rounded-full font-label-md text-label-md flex items-center justify-center bg-surface-container-lowest text-on-surface shadow-sm shrink-0 active:scale-95 transition-transform" data-cat="bawang" type="button">
+<span>Bawang</span>
+</button>
+<button aria-pressed="false" class="category-chip px-space-md h-12 rounded-full font-label-md text-label-md flex items-center justify-center bg-surface-container-lowest text-on-surface shadow-sm shrink-0 active:scale-95 transition-transform" data-cat="palawija" type="button">
+<span>Palawija</span>
+</button>
+</div>
+</section>
+<!-- Commodity Price Cards List -->
+<section aria-label="Daftar Harga Komoditas" class="flex flex-col space-y-space-md" id="commodity-list">
+<!-- Card 1: Cabai Rawit Merah -->
+<article class="commodity-card flex flex-col bg-surface-container-lowest p-space-md rounded-xl shadow-md space-y-3" data-cat="cabai" data-name="cabai rawit merah">
+<div class="flex items-center gap-space-sm">
+<div class="w-16 h-16 rounded-full overflow-hidden shrink-0 bg-surface-container flex items-center justify-center p-1 shadow-inner">
+<img alt="Cabai Rawit Merah" class="w-full h-full object-cover rounded-full" data-alt="Close up fresh vibrant red bird's eye chili harvest neatly gathered inside a traditional woven bamboo basket in natural daylight farm market" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChe_Y0H1F5IIZX8YsslJhM7RHpCiJder2OnJPrq9qQdi5yY_R46Za4ICF3r98eBnGAnsRbjn21HcHe61dT5peLHCpbkPxtwxNKZbVBoA5nkRjJYxQmOKFosGujySXUVz-WiWjhuEkBd2xgNcr38bYP6h9CZWdpfCD4lhMABAsVv02vTn3-qrSWlQOAxGh97fckOi9SbaMHCx2Qg--jHnw_fFn5Ox2ZB4iw0opsPh-8gP1jSK3_WlSmHQ"/>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<span class="font-headline-sm text-headline-sm text-on-surface truncate">Cabai Rawit Merah</span>
+<span class="font-body-md text-body-md text-on-surface-variant">Pasar Induk Pare & Porong</span>
+</div>
+</div>
+<div class="flex items-baseline justify-between pt-1">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wide">Harga Grosir Hari Ini</span>
+<span class="font-headline-lg text-headline-lg text-primary tracking-tight">Rp 45.000 <span class="font-label-md text-label-md text-on-surface-variant">/ kg</span></span>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-2 pt-1">
+<div class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md">
+<span aria-hidden="true" class="material-symbols-outlined text-[20px]">arrow_upward</span>
+<span>Naik Rp 2.000 (dari kemarin)</span>
+</div>
+</div>
+<div class="flex items-center gap-2 pt-2 text-on-surface-variant font-label-md text-label-md">
+<span aria-hidden="true" class="material-symbols-outlined text-[22px] text-primary">local_fire_department</span>
+<span>Permintaan pasar: <strong class="text-on-surface font-headline-sm">Tinggi</strong></span>
+</div>
+</article>
+<!-- Card 2: Gabah Kering Panen -->
+<article class="commodity-card flex flex-col bg-surface-container-lowest p-space-md rounded-xl shadow-md space-y-3" data-cat="padi" data-name="gabah kering panen padi gkp">
+<div class="flex items-center gap-space-sm">
+<div class="w-16 h-16 rounded-full overflow-hidden shrink-0 bg-surface-container flex items-center justify-center p-1 shadow-inner">
+<img alt="Gabah Kering Panen" class="w-full h-full object-cover rounded-full" data-alt="Golden ripe dry harvest rice grains held in a farmer weathered hand during bright midday sun in East Java agricultural fields" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6-tdkTam5Zgmi7WHnzQFAYe-OVYQvMelATYbBKzCu8Adss8oHEGqWeS8NO98L-ZTgb9AjWWe9Hkohth6UUOQA8iWj0t5vIYSWOguhfJ5ow7-6bLaNAAEyH3-xkTtfvpXAx5O5zuGvIRnfuofI1S84YR72NVxrl5ojCP41zsuxGKVNtVFEir7EP7_nb84QdROG5A8O2JLUJ5pXPbIPnttEGDqS5jue4y2U1pzkPhijoWNEp6SzdrKJ1g"/>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<span class="font-headline-sm text-headline-sm text-on-surface truncate">Gabah Kering Panen (Padi)</span>
+<span class="font-body-md text-body-md text-on-surface-variant">Tingkat Penggilingan & Tengkulak</span>
+</div>
+</div>
+<div class="flex items-baseline justify-between pt-1">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wide">Harga Grosir Hari Ini</span>
+<span class="font-headline-lg text-headline-lg text-primary tracking-tight">Rp 6.800 <span class="font-label-md text-label-md text-on-surface-variant">/ kg</span></span>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-2 pt-1">
+<div class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md">
+<span aria-hidden="true" class="material-symbols-outlined text-[20px]">arrow_upward</span>
+<span>Naik Rp 300</span>
+</div>
+</div>
+<div class="flex items-center gap-2 pt-2 text-on-surface-variant font-label-md text-label-md">
+<span aria-hidden="true" class="material-symbols-outlined text-[22px] text-secondary">verified</span>
+<span>Harga stabil di tingkat tengkulak desa</span>
+</div>
+</article>
+<!-- Card 3: Bawang Merah Super -->
+<article class="commodity-card flex flex-col bg-surface-container-lowest p-space-md rounded-xl shadow-md space-y-3" data-cat="bawang" data-name="bawang merah super">
+<div class="flex items-center gap-space-sm">
+<div class="w-16 h-16 rounded-full overflow-hidden shrink-0 bg-surface-container flex items-center justify-center p-1 shadow-inner">
+<img alt="Bawang Merah Super" class="w-full h-full object-cover rounded-full" data-alt="Top grade red shallots neatly piled together showing glossy crisp outer skins under natural daytime farm light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDumBfphZw5an1ya-CaIT5ZfFBD56kGJ8gI99DgahAnf_hnF1YvFjUwSwMEidZNJn3eJoVpAJw2fW-WX0BgThle5pMKLDHLX9DARqsWAwgFZqJwG9ZNTrJgXs5GjxbUYeJpUn95WDFpFKn5qcwo5oRX25_EaTAhZa89oBdfdVldaeURoJPJgRxwqElSxBFVDUOS8s2XVs5RGXKwUQCn5UpSSUrxcZniu6kJT_IDsCVHg4eqOlZIQ8eZkw"/>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<span class="font-headline-sm text-headline-sm text-on-surface truncate">Bawang Merah Super</span>
+<span class="font-body-md text-body-md text-on-surface-variant">Pasar Sukomoro Nganjuk</span>
+</div>
+</div>
+<div class="flex items-baseline justify-between pt-1">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wide">Harga Grosir Hari Ini</span>
+<span class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Rp 28.000 <span class="font-label-md text-label-md text-on-surface-variant">/ kg</span></span>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-2 pt-1">
+<div class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-error-container text-on-error-container font-label-md text-label-md">
+<span aria-hidden="true" class="material-symbols-outlined text-[20px]">arrow_downward</span>
+<span>Turun Rp 1.500</span>
+</div>
+</div>
+<div class="flex items-center gap-2 pt-2 text-on-surface-variant font-label-md text-label-md">
+<span aria-hidden="true" class="material-symbols-outlined text-[22px] text-tertiary">inventory_2</span>
+<span>Pasokan melimpah dari panen raya Nganjuk</span>
+</div>
+</article>
+<!-- Card 4: Tomat Sayur Segar -->
+<article class="commodity-card flex flex-col bg-surface-container-lowest p-space-md rounded-xl shadow-md space-y-3" data-cat="palawija" data-name="tomat sayur segar palawija">
+<div class="flex items-center gap-space-sm">
+<div class="w-16 h-16 rounded-full overflow-hidden shrink-0 bg-surface-container flex items-center justify-center p-1 shadow-inner">
+<img alt="Tomat Sayur" class="w-full h-full object-cover rounded-full" data-alt="Shiny fresh harvested ripe red and orange tomatoes piled in wooden crate at an open air village market" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDw_QM4GxxHXAnvAWuRAzlRGsU_aYzviHIkHucCGJ6xfNgIQOoXffayOewy0gjsYnW5G3vcUsEYGE6DnBGcFz3hg-4SpNUk1xmkIfDQ_2SoKZ6yjW6vMtn97H3mTKV1Q9Aj5sb4MPAd35Ns3YUlLK5_0w-zWi5Ns1AW1GXhNTKQLi20tcUVgzLmyUaKjAM0qGxDydP4o9zCgwPUGB_SDt4_o1JSblMoIQGIVYxKJAcqzXdZv3GqF4b56w"/>
+</div>
+<div class="flex flex-col flex-1 min-w-0">
+<span class="font-headline-sm text-headline-sm text-on-surface truncate">Tomat Sayur Segar</span>
+<span class="font-body-md text-body-md text-on-surface-variant">Pusat Sayur Pujon Malang</span>
+</div>
+</div>
+<div class="flex items-baseline justify-between pt-1">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wide">Harga Grosir Hari Ini</span>
+<span class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Rp 8.000 <span class="font-label-md text-label-md text-on-surface-variant">/ kg</span></span>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-2 pt-1">
+<div class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md">
+<span aria-hidden="true" class="material-symbols-outlined text-[20px]">horizontal_rule</span>
+<span>Stabil (Tidak berubah)</span>
+</div>
+</div>
+<div class="flex items-center gap-2 pt-2 text-on-surface-variant font-label-md text-label-md">
+<span aria-hidden="true" class="material-symbols-outlined text-[22px] text-primary">check_circle</span>
+<span>Serapan pasar sayur normal lancar</span>
+</div>
+</article>
+</section>
+<!-- Empty Search Result State -->
+<div class="hidden flex-col items-center justify-center p-space-lg bg-surface-container-lowest rounded-xl shadow-sm text-center space-y-3" id="search-empty">
+<div class="w-16 h-16 rounded-full bg-surface-container flex items-center justify-center text-outline">
+<span aria-hidden="true" class="material-symbols-outlined text-[36px]">search_off</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface">Komoditas Tidak Ditemukan</span>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xs">
+      Coba periksa ejaan nama komoditas atau gunakan tombol kategori di atas.
+    </p>
+</div>
+<!-- Help & Cooperative Direct Connect Banner -->
+<section aria-label="Tips dan Bantuan Koperasi" class="flex flex-col bg-surface-container-high text-on-surface p-space-md rounded-xl shadow-sm space-y-space-sm">
+<div class="flex items-start gap-3">
+<div class="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-on-primary shrink-0">
+<span aria-hidden="true" class="material-symbols-outlined text-[28px]">lightbulb</span>
+</div>
+<div class="flex flex-col flex-1">
+<span class="font-headline-sm text-headline-sm text-on-surface">Tips Penjualan Panen</span>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1 leading-relaxed">
+          Harga gabah cenderung naik menjelang akhir bulan. Hubungi Koperasi Tani jika ingin jual langsung tanpa perantara.
+        </p>
+</div>
+</div>
+<a aria-label="Hubungi Koperasi Tani sekarang" class="w-full h-14 bg-primary text-on-primary rounded-xl font-label-lg text-label-lg flex items-center justify-center gap-2 shadow-md active:scale-95 transition-all mt-2" href="tel:08001234567">
+<span aria-hidden="true" class="material-symbols-outlined text-[26px]">call</span>
+<span>Hubungi Koperasi Tani</span>
+</a>
+</section>
+</div>
+<script>
+  (function() {
+    const searchInput = document.getElementById('commodity-search');
+    const cards = document.querySelectorAll('.commodity-card');
+    const emptyState = document.getElementById('search-empty');
+    const categoryChips = document.querySelectorAll('.category-chip');
+
+    let activeCategory = 'all';
+
+    function filterCommodities() {
+      const query = (searchInput.value || '').trim().toLowerCase();
+      let visibleCount = 0;
+
+      cards.forEach(card => {
+        const name = card.getAttribute('data-name') || '';
+        const cat = card.getAttribute('data-cat') || '';
+        
+        const matchesQuery = !query || name.includes(query);
+        const matchesCategory = activeCategory === 'all' || cat === activeCategory;
+
+        if (matchesQuery && matchesCategory) {
+          card.classList.remove('hidden');
+          visibleCount++;
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+
+      if (visibleCount === 0) {
+        emptyState.classList.remove('hidden');
+        emptyState.classList.add('flex');
+      } else {
+        emptyState.classList.add('hidden');
+        emptyState.classList.remove('flex');
+      }
+    }
+
+    searchInput.addEventListener('input', filterCommodities);
+
+    categoryChips.forEach(chip => {
+      chip.addEventListener('click', () => {
+        categoryChips.forEach(c => {
+          c.setAttribute('aria-pressed', 'false');
+          c.className = 'category-chip px-space-md h-12 rounded-full font-label-md text-label-md flex items-center justify-center bg-surface-container-lowest text-on-surface shadow-sm shrink-0 active:scale-95 transition-transform';
+        });
+
+        chip.setAttribute('aria-pressed', 'true');
+        chip.className = 'category-chip px-space-md h-12 rounded-full font-label-md text-label-md flex items-center justify-center gap-1.5 bg-primary text-on-primary shadow-sm shrink-0 active:scale-95 transition-transform';
+
+        activeCategory = chip.getAttribute('data-cat') || 'all';
+        filterCommodities();
+      });
+    });
+  })();
+</script></main><nav class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-surface-container-lowest/95 backdrop-blur-xl shadow-[0_-2px_12px_rgba(20,83,45,0.08)]" data-active-classes="text-primary-container font-label-sm"><div class="flex justify-around items-center h-20 px-space-xs"><a class="flex flex-col items-center justify-center flex-1 h-full py-1 text-on-surface-variant hover:text-on-surface active:scale-95 transition-all" data-path="beranda" href="#"><span class="material-symbols-outlined text-[28px] mb-0.5">home</span><span class="font-label-sm text-[13px] leading-tight">Beranda</span></a><a class="flex flex-col items-center justify-center flex-1 h-full py-1 text-on-surface-variant hover:text-on-surface active:scale-95 transition-all" data-path="jadwal-tanam" href="#"><span class="material-symbols-outlined text-[28px] mb-0.5">calendar_month</span><span class="font-label-sm text-[13px] leading-tight">Jadwal</span></a><a class="flex flex-col items-center justify-center flex-1 h-full py-1 text-on-surface-variant hover:text-on-surface active:scale-95 transition-all" data-path="keuangan-tani" href="#"><span class="material-symbols-outlined text-[28px] mb-0.5">account_balance_wallet</span><span class="font-label-sm text-[13px] leading-tight">Keuangan</span></a><a aria-current="page" class="flex flex-col items-center justify-center flex-1 h-full py-1 active:scale-95 transition-all text-primary-container font-label-sm" data-path="harga-pasar" href="#"><span class="material-symbols-outlined text-[28px] mb-0.5">trending_up</span><span class="font-label-sm text-[13px] leading-tight">Pasar</span></a><a class="flex flex-col items-center justify-center flex-1 h-full py-1 text-on-surface-variant hover:text-on-surface active:scale-95 transition-all" data-path="deteksi-hama" href="#"><span class="material-symbols-outlined text-[28px] mb-0.5">pest_control</span><span class="font-label-sm text-[13px] leading-tight">Hama</span></a></div></nav></body></html>

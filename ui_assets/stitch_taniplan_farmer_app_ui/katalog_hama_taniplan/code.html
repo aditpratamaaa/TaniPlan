@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+
+<html lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><title>TaniPlan</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@28,700,0..1,0&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;background-color:#f9f9ff;color:#141b2b;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}.material-symbols-outlined{font-variation-settings:'FILL' 1,'wght' 700,'GRAD' 0,'opsz' 28;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "tertiary-fixed-dim": "#ffb4ab", "secondary-fixed": "#b1f2be", "surface-container-low": "#f1f3ff", "error": "#ba1a1a", "surface-bright": "#f9f9ff", "primary": "#00652c", "secondary-container": "#b1f2be", "on-surface-variant": "#3f493f", "on-primary": "#ffffff", "on-tertiary": "#ffffff", "primary-container": "#15803d", "surface-container": "#e9edff", "surface-dim": "#d3daef", "tertiary-container": "#d82324", "on-secondary-container": "#347047", "on-surface": "#141b2b", "surface-tint": "#006d30", "on-primary-container": "#d3ffd5", "secondary-fixed-dim": "#96d5a3", "tertiary": "#b20010", "outline": "#6f7a6e", "on-background": "#141b2b", "inverse-on-surface": "#edf0ff", "tertiary-fixed": "#ffdad6", "primary-fixed": "#95f8a7", "outline-variant": "#becabc", "surface": "#f9f9ff", "on-tertiary-fixed-variant": "#93000b", "error-container": "#ffdad6", "on-error-container": "#93000a", "on-primary-fixed": "#00210a", "secondary": "#2e6a41", "inverse-primary": "#79db8d", "on-primary-fixed-variant": "#005323", "on-secondary": "#ffffff", "on-secondary-fixed": "#00210d", "primary-fixed-dim": "#79db8d", "surface-variant": "#dce2f7", "on-tertiary-container": "#fff1ef", "surface-container-high": "#e1e8fd", "on-secondary-fixed-variant": "#12512c", "background": "#f9f9ff", "surface-container-lowest": "#ffffff", "on-tertiary-fixed": "#410002", "surface-container-highest": "#dce2f7", "on-error": "#ffffff", "inverse-surface": "#293040" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-sm": "0.75rem", "space-lg": "1.75rem", "space-xs": "0.375rem", "gutter": "1rem", "space-xl": "2.5rem", "margin": "1.25rem", "space-md": "1.25rem" }, fontFamily: { "headline-xl": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "body-xl": ["Plus Jakarta Sans"] }, fontSize: { "headline-xl": ["32px", { lineHeight: "40px", letterSpacing: "-0.02em", fontWeight: "800" }], "label-lg": ["18px", { lineHeight: "24px", letterSpacing: "0.01em", fontWeight: "800" }], "body-md": ["16px", { lineHeight: "26px", fontWeight: "500" }], "label-md": ["16px", { lineHeight: "22px", letterSpacing: "0.01em", fontWeight: "700" }], "headline-lg": ["26px", { lineHeight: "34px", letterSpacing: "-0.01em", fontWeight: "800" }], "label-sm": ["15px", { lineHeight: "20px", fontWeight: "700" }], "body-lg": ["18px", { lineHeight: "28px", fontWeight: "500" }], "headline-md": ["22px", { lineHeight: "30px", fontWeight: "700" }], "headline-sm": ["20px", { lineHeight: "28px", fontWeight: "700" }], "body-xl": ["19px", { lineHeight: "28px", fontWeight: "500" }] } } } };</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 inset-x-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] pt-safe"><div class="h-20 px-margin flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm"><img alt="TaniPlan Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-zSDc4bwG9yrbT4C-LSJ7XQcu1ZzBV58rJHZZuWd13DsBIl-vPYD9UgDtfxXd6ztE2uHRPitNrINXqL8u4mzLdUPvizb9vs7dXRA0NUatp0HA40rfLIicrNGooVplh0c_C8VACJvfRtdopi0WbGvNd4gDzilol5vwQA_jjzYXeF-rkuJmQ1kiib-D9Zt_uTZT1SvHaDA-ALvdQF6pH_E-KcdRtdpjOWehmNjvT_ejgRKlFXI2ZW3Xpg"/><div class="flex flex-col"><span class="font-label-sm text-label-sm text-primary uppercase tracking-wider">TaniPlan</span><h1 class="font-headline-sm text-headline-sm text-on-surface">Deteksi Hama</h1></div></div><div class="flex items-center gap-space-xs"><button aria-label="Bantuan Suara" class="w-11 h-11 flex items-center justify-center rounded-full bg-surface-container text-primary active:scale-95"><span class="material-symbols-outlined text-[26px]">volume_up</span></button><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBvNsVcTjttgRDwzWNSrONOQFnLj2G5x__USC89PsaaNpy7s1SrDb6wmKfaC_UlWynmd18GFRFfHT2I_zGtc2tJgSjEl8r9DtvFl28NKtOIhpzE7Ft5iy-7dozbYcEh2rHIKl0IUOuuxbxoSNSTPCTxebb-cLoxNB2_WP10rsEec6qjKExcVhOWhsrhlI_Olca1we5wyNDXkSZkNr8j3p0hlSkxpaVkUSg0_fdY8FwS2aYMbXfLqODGSg"/></div></div></header><main class="flex-1 flex flex-col relative w-full px-margin pt-20 pb-28 bg-surface"><div class="flex flex-col w-full pb-8 space-y-6">
+<!-- Header Section -->
+<section class="flex flex-col space-y-1">
+<div class="inline-flex items-center gap-2 mb-1">
+<span class="px-2.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+        Panduan Tani
+      </span>
+<span class="text-on-surface-variant font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[18px]">verified</span> Terverifikasi Pakar
+      </span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-extrabold tracking-tight">
+      Katalog Penyakit Tanaman
+    </h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+      Kenali Gejala & Obat Pembasmi Hama Alami
+    </p>
+</section>
+<!-- Quick Camera Scan Banner (Moments of Delight / High Accessibility) -->
+<section class="relative overflow-hidden bg-primary text-on-primary rounded-xl shadow-md p-5">
+<div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 relative z-10">
+<div class="flex items-center gap-3.5">
+<div class="w-14 h-14 rounded-xl bg-on-primary/15 flex items-center justify-center flex-shrink-0 text-on-primary">
+<span class="material-symbols-outlined text-[36px]">photo_camera</span>
+</div>
+<div>
+<span class="inline-block px-2 py-0.5 mb-1 rounded bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm uppercase">
+            Paling Cepat & Praktis
+          </span>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-primary leading-tight">
+            Foto Daun yang Sakit
+          </h3>
+<p class="font-body-md text-body-md text-on-primary/80 text-sm mt-0.5">
+            Arahkan kamera ke daun, aplikasi otomatis beri nama obatnya.
+          </p>
+</div>
+</div>
+<button class="w-full sm:w-auto h-14 px-6 rounded-lg bg-surface-container-lowest text-primary font-label-lg text-label-lg font-bold flex items-center justify-center gap-2 shadow-md active:scale-95 transition-transform flex-shrink-0" onclick="triggerVoicePrompt('Membuka kamera untuk foto daun yang sakit')" type="button">
+<span class="material-symbols-outlined text-[24px]">camera_enhance</span>
+<span>Buka Kamera Pindai</span>
+</button>
+</div>
+<!-- Subtle agricultural leaf pattern background -->
+<div class="absolute -right-6 -bottom-6 w-32 h-32 opacity-10 pointer-events-none">
+<svg class="w-full h-full fill-current text-white" viewbox="0 0 100 100">
+<path d="M50 0 C70 30 90 50 100 80 C80 90 50 90 20 80 C30 50 40 30 50 0 Z"></path>
+</svg>
+</div>
+</section>
+<!-- Search & Filter Controls -->
+<section class="flex flex-col space-y-3.5">
+<!-- Accessible Large Search Field -->
+<div class="relative flex items-center">
+<div class="absolute left-4 flex items-center pointer-events-none text-on-surface-variant">
+<span class="material-symbols-outlined text-[28px]">search</span>
+</div>
+<input class="w-full h-[54px] pl-14 pr-12 rounded-xl bg-surface-container-lowest text-on-surface font-body-lg text-body-lg shadow-sm placeholder:text-on-surface-variant/70 focus:outline-none focus:ring-2 focus:ring-primary" id="pest-search-input" placeholder="Cari gejala (misal: daun kuning)..." type="text"/>
+<button aria-label="Cari lewat suara" class="absolute right-2 w-10 h-10 rounded-full flex items-center justify-center text-primary hover:bg-surface-container active:scale-90" onclick="triggerVoicePrompt('Sebutkan gejala tanaman Anda')" type="button">
+<span class="material-symbols-outlined text-[26px]">mic</span>
+</button>
+</div>
+<!-- Filter Chips with tactile touch area -->
+<div aria-label="Filter Jenis Tanaman" class="flex items-center gap-2 overflow-x-auto pb-1" role="tablist">
+<button aria-selected="false" class="filter-pill h-12 px-5 rounded-lg bg-surface-container-lowest text-on-surface font-label-md text-label-md flex items-center justify-center shadow-sm active:scale-95 transition-all flex-shrink-0" onclick="setFilter(this, 'all')" role="tab" type="button">
+<span>Semua</span>
+</button>
+<button aria-selected="true" class="filter-pill active h-12 px-5 rounded-lg bg-primary-container text-on-primary-container font-label-md text-label-md flex items-center justify-center gap-1.5 shadow-sm active:scale-95 transition-all flex-shrink-0" onclick="setFilter(this, 'padi')" role="tab" type="button">
+<span class="material-symbols-outlined text-[20px]">check</span>
+<span>Padi</span>
+</button>
+<button aria-selected="false" class="filter-pill h-12 px-5 rounded-lg bg-surface-container-lowest text-on-surface font-label-md text-label-md flex items-center justify-center shadow-sm active:scale-95 transition-all flex-shrink-0" onclick="setFilter(this, 'sayuran')" role="tab" type="button">
+<span>Sayuran</span>
+</button>
+<button aria-selected="false" class="filter-pill h-12 px-5 rounded-lg bg-surface-container-lowest text-on-surface font-label-md text-label-md flex items-center justify-center shadow-sm active:scale-95 transition-all flex-shrink-0" onclick="setFilter(this, 'buah')" role="tab" type="button">
+<span>Buah</span>
+</button>
+</div>
+</section>
+<!-- Main Content: Disease Catalog Grid -->
+<section class="flex flex-col space-y-4">
+<div class="flex items-center justify-between">
+<p class="font-label-md text-label-md text-on-surface-variant font-bold">
+        Ditemukan <span class="text-primary font-extrabold" id="result-count">4 Penyakit</span> Utama
+      </p>
+<button class="text-primary font-label-sm text-label-sm flex items-center gap-1 hover:underline" onclick="triggerVoicePrompt('Menampilkan seluruh daftar hama')" type="button">
+<span class="material-symbols-outlined text-[18px]">volume_up</span>
+        Dengarkan
+      </button>
+</div>
+<!-- 2-Column Responsive Card Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<!-- Card 1: Tungro -->
+<article class="bg-surface-container-lowest rounded-xl shadow-md overflow-hidden flex flex-col justify-between p-4 space-y-3.5">
+<div class="space-y-3">
+<div class="relative w-full h-44 rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Close up photograph of lush green rice paddy leaves turning yellowish orange with striped streaks under natural outdoor Indonesian farm sunlight, clear diagnostic detail, realistic agricultural photography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBdlCxmIog0kNlXozPDLo6sIaLWTFsDGS6MCOktAh5uCKqNb4fr2Ivu-6o9eTc47mqNSMpIZHXZpvPr6Po0NjHYXU04RMwrElKK7yC8L121iTTRDB-b6tFhBWzneZSv0_CmzqPImhDD-NDx-D3rOPJEfw2uAw37GRFzBjIMMEVQH4_lkrsoYYtJJCZTge_nN8mB8OMxvdPicROud3mCidF3FcA_FQ7q_b_Sseptzmak6IekI738tAFYAw"/>
+<span class="absolute top-2.5 left-2.5 px-3 py-1 rounded-md bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold shadow-sm">
+              Menyerang: Padi
+            </span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm font-extrabold text-on-surface">
+              Penyakit Tungro
+            </h4>
+<div class="mt-2 space-y-1.5 bg-surface-container-low rounded-lg p-3">
+<div>
+<span class="block font-label-sm text-label-sm text-on-surface-variant">Gejala Utama:</span>
+<p class="font-body-md text-body-md text-on-surface leading-snug">
+                  Daun menguning oranye, pertumbuhan kerdil.
+                </p>
+</div>
+<div class="pt-1.5">
+<span class="block font-label-sm text-label-sm text-primary font-bold">Solusi Cepat:</span>
+<p class="font-body-md text-body-md text-on-surface leading-snug">
+                  Semprot daun & basmi wereng hijau.
+                </p>
+</div>
+</div>
+</div>
+</div>
+<button class="w-full h-14 rounded-lg bg-primary-container text-on-primary font-label-lg text-label-lg font-bold flex items-center justify-center gap-2 shadow active:scale-95 transition-all" onclick="openDetailModal('Penyakit Tungro', 'Padi')" type="button">
+<span class="material-symbols-outlined text-[24px]">medication</span>
+<span>Lihat Obat & Cara Atasi</span>
+</button>
+</article>
+<!-- Card 2: Antraknosa (Busuk Buah) -->
+<article class="bg-surface-container-lowest rounded-xl shadow-md overflow-hidden flex flex-col justify-between p-4 space-y-3.5">
+<div class="space-y-3">
+<div class="relative w-full h-44 rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Clear macro view of fresh red chili pepper and ripe tomato showing dark sunken circular rot lesions caused by anthracnose fungus on a wooden harvest crate, sharp focus, natural daylight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCu1IFRyIJNgJroGMpRZeqFolvwBB0dgYUpbiOTGgSUnmqH-LTZBnqOGKhMg53iHYVexU3A3t0uf6pT7b5OfyalXq55fOzFLAf8WlXG3gqhsZ81Rv6OaOtJb82BAUoKeyjLmEjChCcMKCWB9pe0JK7IExrpBirhEksqOwViAIKvd2g-sJr8sTFvmGrPKh1Y39rm2fd42-z0PyW0HiJktgj5qOEWmoIosdj3GUEDqtVqifBMiU6NaRc1bw"/>
+<span class="absolute top-2.5 left-2.5 px-3 py-1 rounded-md bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-bold shadow-sm">
+              Menyerang: Tomat / Cabai
+            </span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm font-extrabold text-on-surface">
+              Busuk Buah (Antraknosa)
+            </h4>
+<div class="mt-2 space-y-1.5 bg-surface-container-low rounded-lg p-3">
+<div>
+<span class="block font-label-sm text-label-sm text-on-surface-variant">Gejala Utama:</span>
+<p class="font-body-md text-body-md text-on-surface leading-snug">
+                  Bercak cokelat melingkar cekung pada buah.
+                </p>
+</div>
+<div class="pt-1.5">
+<span class="block font-label-sm text-label-sm text-primary font-bold">Solusi Cepat:</span>
+<p class="font-body-md text-body-md text-on-surface leading-snug">
+                  Kurangi kelembapan, pangkas daun bawah.
+                </p>
+</div>
+</div>
+</div>
+</div>
+<button class="w-full h-14 rounded-lg bg-primary-container text-on-primary font-label-lg text-label-lg font-bold flex items-center justify-center gap-2 shadow active:scale-95 transition-all" onclick="openDetailModal('Busuk Buah (Antraknosa)', 'Tomat / Cabai')" type="button">
+<span class="material-symbols-outlined text-[24px]">medication</span>
+<span>Lihat Obat & Cara Atasi</span>
+</button>
+</article>
+<!-- Card 3: Blas Padi -->
+<article class="bg-surface-container-lowest rounded-xl shadow-md overflow-hidden flex flex-col justify-between p-4 space-y-3.5">
+<div class="space-y-3">
+<div class="relative w-full h-44 rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Detailed agricultural shot of rice leaf blast fungus infection showing spindle-shaped grey-centered brown spots with yellow halos across green paddy blades, clear sunny field context." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBiI5sXbSMoX1L6IPwnyh5CDI8Q8aZkj8GOtEY4P3Wc_t-jia_utLmyn4FLDuCgBw4XKNrIljYVyinAgapFqBVlgTv2V9kCsmKj6HeZo-R77Kx45-ztwzswjCNMFSIB933W70pwsG0BmBbnQZ4qzeGMb3gsmw4w1UHlU0HuSlgnmuxUDouFwSjFu5lkvvICh02iZc1VbJRvdPvhfx72flvA1KNUjVdJ3QJKA-ZLKAPA1j8T_vxtkStDfQ"/>
+<span class="absolute top-2.5 left-2.5 px-3 py-1 rounded-md bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold shadow-sm">
+              Menyerang: Padi
+            </span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm font-extrabold text-on-surface">
+              Penyakit Blas Padi
+            </h4>
+<div class="mt-2 space-y-1.5 bg-surface-container-low rounded-lg p-3">
+<div>
+<span class="block font-label-sm text-label-sm text-on-surface-variant">Gejala Utama:</span>
+<p class="font-body-md text-body-md text-on-surface leading-snug">
+                  Bercak berbentuk belah ketupat abu-abu di daun.
+                </p>
+</div>
+<div class="pt-1.5">
+<span class="block font-label-sm text-label-sm text-primary font-bold">Solusi Cepat:</span>
+<p class="font-body-md text-body-md text-on-surface leading-snug">
+                  Atur jarak tanam lega, semprot fungisida nabati.
+                </p>
+</div>
+</div>
+</div>
+</div>
+<button class="w-full h-14 rounded-lg bg-primary-container text-on-primary font-label-lg text-label-lg font-bold flex items-center justify-center gap-2 shadow active:scale-95 transition-all" onclick="openDetailModal('Penyakit Blas Padi', 'Padi')" type="button">
+<span class="material-symbols-outlined text-[24px]">medication</span>
+<span>Lihat Obat & Cara Atasi</span>
+</button>
+</article>
+<!-- Card 4: Ulat Grayak -->
+<article class="bg-surface-container-lowest rounded-xl shadow-md overflow-hidden flex flex-col justify-between p-4 space-y-3.5">
+<div class="space-y-3">
+<div class="relative w-full h-44 rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Clear high resolution photograph of armyworm caterpillar eating green vegetable leaves in rural Indonesian garden plot, high contrast, natural lighting showing leaf damage." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJHLrlq-hiy5xyyUbqBaEaMEYy3g9hW_T0nLMPuWkGVd0fnQkYXKWW7iYQww-GKUKIyOuXFGLqgG4mSoauQs4kzSPZidF7yfcnNf3cV2ykGafJbLbVaVfAVUEXrB5V-PGT8baRFZeJ5kA0lIdtNNXBJo-X5djm4I67ZE9W62RlqFUOJurDKnhFSAcIoPf2We0apAODUUch13Cocif_8VDOsQyfMRL3dmoANxLvfuAFhZGgCAq8rR3HoQ"/>
+<span class="absolute top-2.5 left-2.5 px-3 py-1 rounded-md bg-surface-container-high text-on-surface font-label-sm text-label-sm font-bold shadow-sm">
+              Menyerang: Jagung & Sayur
+            </span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm font-extrabold text-on-surface">
+              Ulat Grayak
+            </h4>
+<div class="mt-2 space-y-1.5 bg-surface-container-low rounded-lg p-3">
+<div>
+<span class="block font-label-sm text-label-sm text-on-surface-variant">Gejala Utama:</span>
+<p class="font-body-md text-body-md text-on-surface leading-snug">
+                  Daun berlubang dan habis menyisakan tulang daun.
+                </p>
+</div>
+<div class="pt-1.5">
+<span class="block font-label-sm text-label-sm text-primary font-bold">Solusi Cepat:</span>
+<p class="font-body-md text-body-md text-on-surface leading-snug">
+                  Gunakan perangkap lampu & ekstrak daun mimba.
+                </p>
+</div>
+</div>
+</div>
+</div>
+<button class="w-full h-14 rounded-lg bg-primary-container text-on-primary font-label-lg text-label-lg font-bold flex items-center justify-center gap-2 shadow active:scale-95 transition-all" onclick="openDetailModal('Ulat Grayak', 'Jagung & Sayur')" type="button">
+<span class="material-symbols-outlined text-[24px]">medication</span>
+<span>Lihat Obat & Cara Atasi</span>
+</button>
+</article>
+</div>
+</section>
+<!-- Farmer Community Help Card (Delight & Reassurance) -->
+<section class="bg-surface-container-low rounded-xl p-5 shadow-sm flex items-start gap-4">
+<div class="w-12 h-12 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed flex-shrink-0">
+<span class="material-symbols-outlined text-[28px]">support_agent</span>
+</div>
+<div class="flex-1">
+<h4 class="font-headline-sm text-headline-sm font-bold text-on-surface">
+        Belum Yakin Hama Apa?
+      </h4>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1 leading-snug">
+        Hubungi Penyuluh Pertanian Lapangan (PPL) setempat lewat pesan suara tanpa biaya pulsa.
+      </p>
+<button class="mt-3.5 h-12 px-4 rounded-lg bg-surface-container-lowest text-primary font-label-md text-label-md font-bold flex items-center gap-2 shadow-sm active:scale-95 transition-transform" onclick="triggerVoicePrompt('Menghubungkan ke PPL Pak Mulyono')" type="button">
+<span class="material-symbols-outlined text-[20px]">phone_in_talk</span>
+<span>Tanya Petugas PPL Desa</span>
+</button>
+</div>
+</section>
+<!-- Accessible Modal Dialog for Remedy Details -->
+<div class="fixed inset-0 z-50 bg-black/70 backdrop-blur-sm hidden items-end sm:items-center justify-center p-0 sm:p-4" id="disease-modal">
+<div class="w-full sm:max-w-lg bg-surface-container-lowest rounded-t-2xl sm:rounded-2xl shadow-xl overflow-hidden p-6 space-y-5 animate-in fade-in duration-200">
+<div class="flex items-center justify-between pb-2 border-b border-surface-container">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[28px]">eco</span>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface" id="modal-title">Detail Resep Obat</h3>
+</div>
+<button aria-label="Tutup" class="w-10 h-10 rounded-full bg-surface-container text-on-surface flex items-center justify-center active:scale-90" onclick="closeDetailModal()" type="button">
+<span class="material-symbols-outlined text-[22px]">close</span>
+</button>
+</div>
+<div class="space-y-4">
+<div class="p-3.5 rounded-xl bg-surface-container-low">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider block">Resep Ramuan Alami</span>
+<p class="font-body-lg text-body-lg font-bold text-on-surface mt-1">
+            Ekstrak Daun Mimba & Bawang Putih
+          </p>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1 text-sm">
+            Tumbuk 1 genggam daun mimba bersama 5 siung bawang putih, rendam 24 jam dengan 2 liter air. Saring dan campur air tangki semprot.
+          </p>
+</div>
+<div class="p-3.5 rounded-xl bg-secondary-container text-on-secondary-container">
+<span class="font-label-sm text-label-sm font-bold block flex items-center gap-1">
+<span class="material-symbols-outlined text-[18px]">alarm</span> Waktu Penyemprotan Terbaik:
+          </span>
+<p class="font-body-md text-body-md mt-0.5">
+            Pagi hari sebelum jam 08:30 atau sore setelah jam 16:00 agar hama tidak terbang menghindar.
+          </p>
+</div>
+</div>
+<button class="w-full h-14 rounded-lg bg-primary text-on-primary font-label-lg text-label-lg font-bold shadow-md active:scale-95" onclick="closeDetailModal()" type="button">
+        Saya Sudah Paham
+      </button>
+</div>
+</div>
+</div>
+<script>
+  function triggerVoicePrompt(message) {
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(message);
+      utterance.lang = 'id-ID';
+      utterance.rate = 0.9;
+      window.speechSynthesis.speak(utterance);
+    } else {
+      alert(message);
+    }
+  }
+
+  function setFilter(buttonEl, filterType) {
+    const pills = document.querySelectorAll('.filter-pill');
+    pills.forEach(p => {
+      p.classList.remove('bg-primary-container', 'text-on-primary-container', 'active');
+      p.classList.add('bg-surface-container-lowest', 'text-on-surface');
+      p.setAttribute('aria-selected', 'false');
+      const checkIcon = p.querySelector('.material-symbols-outlined');
+      if (checkIcon) checkIcon.remove();
+    });
+
+    buttonEl.classList.remove('bg-surface-container-lowest', 'text-on-surface');
+    buttonEl.classList.add('bg-primary-container', 'text-on-primary-container', 'active');
+    buttonEl.setAttribute('aria-selected', 'true');
+
+    const check = document.createElement('span');
+    check.className = 'material-symbols-outlined text-[20px]';
+    check.innerText = 'check';
+    buttonEl.insertBefore(check, buttonEl.firstChild);
+
+    triggerVoicePrompt('Filter ' + buttonEl.innerText.trim() + ' dipilih');
+  }
+
+  function openDetailModal(diseaseName, hostCrop) {
+    const modal = document.getElementById('disease-modal');
+    const titleEl = document.getElementById('modal-title');
+    if (titleEl) titleEl.innerText = diseaseName;
+    if (modal) {
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    }
+    triggerVoicePrompt('Menampilkan resep pengobatan untuk ' + diseaseName);
+  }
+
+  function closeDetailModal() {
+    const modal = document.getElementById('disease-modal');
+    if (modal) {
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    }
+  }
+</script></main><nav class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-surface-container-lowest/95 backdrop-blur-xl shadow-[0_-2px_12px_rgba(20,83,45,0.08)]" data-active-classes="text-primary-container font-label-sm"><div class="flex justify-around items-center h-20 px-space-xs"><a class="flex flex-col items-center justify-center flex-1 h-full py-1 text-on-surface-variant hover:text-on-surface active:scale-95 transition-all" data-path="beranda" href="#"><span class="material-symbols-outlined text-[28px] mb-0.5">home</span><span class="font-label-sm text-[13px] leading-tight">Beranda</span></a><a class="flex flex-col items-center justify-center flex-1 h-full py-1 text-on-surface-variant hover:text-on-surface active:scale-95 transition-all" data-path="jadwal-tanam" href="#"><span class="material-symbols-outlined text-[28px] mb-0.5">calendar_month</span><span class="font-label-sm text-[13px] leading-tight">Jadwal</span></a><a class="flex flex-col items-center justify-center flex-1 h-full py-1 text-on-surface-variant hover:text-on-surface active:scale-95 transition-all" data-path="keuangan-tani" href="#"><span class="material-symbols-outlined text-[28px] mb-0.5">account_balance_wallet</span><span class="font-label-sm text-[13px] leading-tight">Keuangan</span></a><a class="flex flex-col items-center justify-center flex-1 h-full py-1 text-on-surface-variant hover:text-on-surface active:scale-95 transition-all" data-path="harga-pasar" href="#"><span class="material-symbols-outlined text-[28px] mb-0.5">trending_up</span><span class="font-label-sm text-[13px] leading-tight">Pasar</span></a><a aria-current="page" class="flex flex-col items-center justify-center flex-1 h-full py-1 active:scale-95 transition-all text-primary-container font-label-sm" data-path="deteksi-hama" href="#"><span class="material-symbols-outlined text-[28px] mb-0.5">pest_control</span><span class="font-label-sm text-[13px] leading-tight">Hama</span></a></div></nav></body></html>

@@ -1,33 +1,77 @@
-import { Tabs } from 'expo-router';
-import React from 'react';
-
-import { HapticTab } from '@/components/haptic-tab';
-import { IconSymbol } from '@/components/ui/icon-symbol';
-import { Colors } from '@/constants/theme';
-import { useColorScheme } from '@/hooks/use-color-scheme';
+import { Tabs } from "expo-router";
+import { Ionicons } from "@expo/vector-icons";
 
 export default function TabLayout() {
-  const colorScheme = useColorScheme();
-
   return (
     <Tabs
       screenOptions={{
-        tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
-        headerShown: false,
-        tabBarButton: HapticTab,
-      }}>
+        tabBarActiveTintColor: "#2E7D32", // Primary Fresh Green
+        tabBarInactiveTintColor: "#555555", // High contrast gray
+        tabBarStyle: {
+          height: 70, // Larger tab bar for better touch targets
+          paddingBottom: 12,
+          paddingTop: 8,
+          backgroundColor: "#FFFFFF",
+          borderTopWidth: 1,
+          borderTopColor: "#E0E0E0",
+        },
+        tabBarLabelStyle: {
+          fontSize: 14, // Larger label
+          fontWeight: "bold",
+        },
+        headerStyle: {
+          backgroundColor: "#2E7D32",
+        },
+        headerTitleStyle: {
+          fontWeight: "bold",
+          fontSize: 24, // Large header
+        },
+        headerTintColor: "#FFFFFF",
+      }}
+    >
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Home',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
+          title: "Beranda",
+          tabBarIcon: ({ color }) => (
+            <Ionicons name="home" size={28} color={color} />
+          ),
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="calendar"
         options={{
-          title: 'Explore',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+          title: "Jadwal",
+          tabBarIcon: ({ color }) => (
+            <Ionicons name="calendar" size={28} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="ledger"
+        options={{
+          title: "Keuangan",
+          tabBarIcon: ({ color }) => (
+            <Ionicons name="wallet" size={28} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="market"
+        options={{
+          title: "Pasar",
+          tabBarIcon: ({ color }) => (
+            <Ionicons name="trending-up" size={28} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="pests"
+        options={{
+          title: "Hama",
+          tabBarIcon: ({ color }) => (
+            <Ionicons name="bug" size={28} color={color} />
+          ),
         }}
       />
     </Tabs>

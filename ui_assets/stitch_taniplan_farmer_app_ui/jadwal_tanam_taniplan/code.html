@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+
+<html lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><title>TaniPlan</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@28,700,0..1,0&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100..900&display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;background-color:#f9f9ff;color:#141b2b;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}.material-symbols-outlined{font-variation-settings:'FILL' 1,'wght' 700,'GRAD' 0,'opsz' 28;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "tertiary-fixed-dim": "#ffb4ab", "secondary-fixed": "#b1f2be", "surface-container-low": "#f1f3ff", "error": "#ba1a1a", "surface-bright": "#f9f9ff", "primary": "#00652c", "secondary-container": "#b1f2be", "on-surface-variant": "#3f493f", "on-primary": "#ffffff", "on-tertiary": "#ffffff", "primary-container": "#15803d", "surface-container": "#e9edff", "surface-dim": "#d3daef", "tertiary-container": "#d82324", "on-secondary-container": "#347047", "on-surface": "#141b2b", "surface-tint": "#006d30", "on-primary-container": "#d3ffd5", "secondary-fixed-dim": "#96d5a3", "tertiary": "#b20010", "outline": "#6f7a6e", "on-background": "#141b2b", "inverse-on-surface": "#edf0ff", "tertiary-fixed": "#ffdad6", "primary-fixed": "#95f8a7", "outline-variant": "#becabc", "surface": "#f9f9ff", "on-tertiary-fixed-variant": "#93000b", "error-container": "#ffdad6", "on-error-container": "#93000a", "on-primary-fixed": "#00210a", "secondary": "#2e6a41", "inverse-primary": "#79db8d", "on-primary-fixed-variant": "#005323", "on-secondary": "#ffffff", "on-secondary-fixed": "#00210d", "primary-fixed-dim": "#79db8d", "surface-variant": "#dce2f7", "on-tertiary-container": "#fff1ef", "surface-container-high": "#e1e8fd", "on-secondary-fixed-variant": "#12512c", "background": "#f9f9ff", "surface-container-lowest": "#ffffff", "on-tertiary-fixed": "#410002", "surface-container-highest": "#dce2f7", "on-error": "#ffffff", "inverse-surface": "#293040" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-sm": "0.75rem", "space-lg": "1.75rem", "space-xs": "0.375rem", "gutter": "1rem", "space-xl": "2.5rem", "margin": "1.25rem", "space-md": "1.25rem" }, fontFamily: { "headline-xl": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "body-xl": ["Plus Jakarta Sans"] }, fontSize: { "headline-xl": ["32px", { lineHeight: "40px", letterSpacing: "-0.02em", fontWeight: "800" }], "label-lg": ["18px", { lineHeight: "24px", letterSpacing: "0.01em", fontWeight: "800" }], "body-md": ["16px", { lineHeight: "26px", fontWeight: "500" }], "label-md": ["16px", { lineHeight: "22px", letterSpacing: "0.01em", fontWeight: "700" }], "headline-lg": ["26px", { lineHeight: "34px", letterSpacing: "-0.01em", fontWeight: "800" }], "label-sm": ["15px", { lineHeight: "20px", fontWeight: "700" }], "body-lg": ["18px", { lineHeight: "28px", fontWeight: "500" }], "headline-md": ["22px", { lineHeight: "30px", fontWeight: "700" }], "headline-sm": ["20px", { lineHeight: "28px", fontWeight: "700" }], "body-xl": ["19px", { lineHeight: "28px", fontWeight: "500" }] } } } };</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 inset-x-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] pt-safe"><div class="h-20 px-margin flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm"><img alt="TaniPlan Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBsm5GHhgvFjtLZx2IkkIWowk0N0MzxIomnWuTjAnUybPvAVy1JwNSJtb0XW2YnqENHBbQRCfZs5OuDHNHTwEmQVKdb8sx8U_AXvMQPU41zkI7wv8fkruLLoChPW8tu25xhaYvUPMLzAFfbCK4CvDrvNGMcuNcczVdvx6XzP_nnmCUgWSqBS1Jn3yXUZYtz7kK0k_Vi82a5QjaYWodjdWY75QKb2Kmr8wVxZnM61NEJkDp6M799uivirw"/><div class="flex flex-col"><span class="font-label-sm text-label-sm text-primary uppercase tracking-wider">TaniPlan</span><h1 class="font-headline-sm text-headline-sm text-on-surface">Jadwal Tanam</h1></div></div><div class="flex items-center gap-space-xs"><button aria-label="Bantuan Suara" class="w-11 h-11 flex items-center justify-center rounded-full bg-surface-container text-primary active:scale-95"><span class="material-symbols-outlined text-[26px]">volume_up</span></button><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8y6zu-mWAFfc8vKq30OfcrF0fVPgLdBd3QjobR2I9F-hnxL6fjXpqaCI6U7VYsVY8QwoZxemOaa5kDQe8q64dH_f-09GsZsWrKpZ4qPFcl8Lt6aTlngB9YlQEWxqFliEw3f4L6E1fDLIia7Bh8axxw-X3-QGMLSNhg4O2u_oBN1EM0CphZizAFXT3bwpDvifS8I9p-Msnpl3x9uMM16mG7Cx2eX2O8XNk7DI4ECYQVC2suo-w4U9sRw"/></div></div></header><main class="flex-1 flex flex-col relative w-full px-margin pt-20 pb-28 bg-surface"><div class="flex flex-col w-full pb-16">
+<!-- Status & Context Card -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-md mb-space-md">
+<div class="flex items-start justify-between gap-space-xs">
+<div>
+<h2 class="font-headline-md text-headline-md text-on-surface">Jadwal Pertanian</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">Musim Tanam Rendeng 2026 • Petak Sawah A & B</p>
+</div>
+<div class="w-12 h-12 rounded-full bg-secondary-container flex items-center justify-center text-on-secondary-container shrink-0">
+<span class="material-symbols-outlined text-[30px]">calendar_today</span>
+</div>
+</div>
+<!-- Weather & Field Alert Delight Card -->
+<div class="mt-space-sm bg-surface-container-high p-space-sm rounded-lg flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[32px] text-primary">partly_cloudy_day</span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-primary">Cuaca Lapangan Hari Ini</span>
+<span class="font-body-md text-body-md text-on-surface font-bold">Pagi Cerah Berawan, Cocok Semprot Pestisida</span>
+</div>
+</div>
+</div>
+<!-- Horizontal Calendar Strip -->
+<div class="mb-space-lg">
+<div class="flex items-center justify-between mb-space-xs px-1">
+<span class="font-label-md text-label-md text-on-surface">Bulan Oktober 2026</span>
+<span class="font-label-sm text-label-sm text-primary flex items-center gap-1">
+<span class="material-symbols-outlined text-[18px]">swipe_left</span> Geser Hari
+      </span>
+</div>
+<div class="flex gap-space-xs overflow-x-auto py-2 -mx-margin px-margin no-scrollbar snap-x">
+<!-- 13 Okt -->
+<button class="snap-start shrink-0 flex flex-col items-center justify-center w-20 h-24 rounded-xl bg-surface-container-lowest shadow-sm text-on-surface active:scale-95 transition-all" type="button">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Sen</span>
+<span class="font-headline-md text-headline-md mt-1">13</span>
+<span class="w-2 h-2 rounded-full bg-surface-variant mt-1.5"></span>
+</button>
+<!-- 14 Okt -->
+<button class="snap-start shrink-0 flex flex-col items-center justify-center w-20 h-24 rounded-xl bg-surface-container-lowest shadow-sm text-on-surface active:scale-95 transition-all" type="button">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Sel</span>
+<span class="font-headline-md text-headline-md mt-1">14</span>
+<span class="w-2 h-2 rounded-full bg-surface-variant mt-1.5"></span>
+</button>
+<!-- 15 Okt (HARI INI / AKTIF) -->
+<button class="snap-start shrink-0 flex flex-col items-center justify-center w-24 h-24 rounded-xl bg-primary text-on-primary shadow-md active:scale-95 transition-all relative" type="button">
+<span class="absolute -top-2.5 px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-xs uppercase tracking-wide shadow-sm">Hari Ini</span>
+<span class="font-label-md text-label-md text-primary-fixed uppercase mt-1">RAB</span>
+<span class="font-headline-lg text-headline-lg font-extrabold leading-none mt-0.5">15</span>
+<span class="w-2.5 h-2.5 rounded-full bg-on-primary mt-1.5 animate-pulse"></span>
+</button>
+<!-- 16 Okt -->
+<button class="snap-start shrink-0 flex flex-col items-center justify-center w-20 h-24 rounded-xl bg-surface-container-lowest shadow-sm text-on-surface active:scale-95 transition-all" type="button">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Kam</span>
+<span class="font-headline-md text-headline-md mt-1">16</span>
+<span class="w-2 h-2 rounded-full bg-surface-variant mt-1.5"></span>
+</button>
+<!-- 17 Okt -->
+<button class="snap-start shrink-0 flex flex-col items-center justify-center w-20 h-24 rounded-xl bg-surface-container-lowest shadow-sm text-on-surface active:scale-95 transition-all" type="button">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Jum</span>
+<span class="font-headline-md text-headline-md mt-1">17</span>
+<span class="w-2 h-2 rounded-full bg-surface-variant mt-1.5"></span>
+</button>
+<!-- 18 Okt -->
+<button class="snap-start shrink-0 flex flex-col items-center justify-center w-20 h-24 rounded-xl bg-surface-container-lowest shadow-sm text-on-surface active:scale-95 transition-all" type="button">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Sab</span>
+<span class="font-headline-md text-headline-md mt-1">18</span>
+<span class="w-2 h-2 rounded-full bg-surface-variant mt-1.5"></span>
+</button>
+<!-- 19 Okt -->
+<button class="snap-start shrink-0 flex flex-col items-center justify-center w-20 h-24 rounded-xl bg-surface-container-lowest shadow-sm text-on-surface active:scale-95 transition-all" type="button">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Min</span>
+<span class="font-headline-md text-headline-md mt-1">19</span>
+<span class="w-2 h-2 rounded-full bg-surface-variant mt-1.5"></span>
+</button>
+<!-- 20 Okt -->
+<button class="snap-start shrink-0 flex flex-col items-center justify-center w-20 h-24 rounded-xl bg-surface-container-lowest shadow-sm text-on-surface active:scale-95 transition-all" type="button">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Sen</span>
+<span class="font-headline-md text-headline-md mt-1">20</span>
+<span class="w-2 h-2 rounded-full bg-surface-variant mt-1.5"></span>
+</button>
+</div>
+</div>
+<!-- Main Content: Task Timeline -->
+<div class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<h3 class="font-label-lg text-label-lg text-on-surface flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[26px] text-primary">format_list_bulleted</span>
+        Daftar Tugas Minggu Ini
+      </h3>
+<span class="bg-surface-container-high text-on-surface font-label-sm text-label-sm px-3 py-1 rounded-full">3 Tugas</span>
+</div>
+<!-- Task Card 1 (HARI INI - URGENT) -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-md flex flex-col gap-space-sm relative overflow-hidden transition-all" id="task-card-1">
+<!-- Decorative crop photo snippet -->
+<div class="relative w-full h-36 rounded-lg overflow-hidden mb-1">
+<img class="w-full h-full object-cover" data-alt="High contrast close up shot of healthy green rice paddy field stalks with morning dew, bright daylight outdoors in rural Java Indonesia, warm natural agricultural photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBuL8DkO9W9G_MjfDDczN9OhvGN3yyDZOv-x5Iv4g-UlhiKpqwx16CUzA5cATxMI5MzsrWj5bPR_M0gM5V3sRvE6ocPTTRBr9C64azZ4pr1E9iJcCs0R7MLIMzmqA9gP66qQBKCe7h5JR2modbipDn8BfX370TXezXzPq41FFcif5DKBoHGZ1rv1be8ldUC6Pzw3tGgUxQeqExrpNNl0qeHDCWaP9JGOexu1RJfdigUm-qm-x5nDP2gEg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end p-space-sm">
+<span class="bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm px-3 py-1 rounded-full uppercase tracking-wider font-extrabold shadow">
+            ● Belum Selesai
+          </span>
+</div>
+</div>
+<div class="flex items-center justify-between gap-space-xs">
+<span class="font-label-md text-label-md text-primary flex items-center gap-1">
+<span class="material-symbols-outlined text-[22px]">event_available</span>
+          15 Okt (Hari Ini)
+        </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant bg-surface-container px-2.5 py-1 rounded-full">06:30 WIB</span>
+</div>
+<div>
+<h4 class="font-body-xl text-body-xl font-extrabold text-on-surface leading-snug">Penyemprotan Hama Wereng</h4>
+<p class="font-body-md text-body-md text-on-surface-variant flex items-center gap-1.5 mt-1">
+<span class="material-symbols-outlined text-[20px] text-outline">location_on</span>
+          Sawah Petak 1 • Jam 06:30 WIB
+        </p>
+</div>
+<!-- Detail callout -->
+<div class="bg-surface-container-low p-space-sm rounded-lg flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[28px] text-tertiary">science</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface">Takaran Bahan:</span>
+<span class="font-body-md text-body-md text-on-surface-variant font-bold">Pestisida Organik 500ml (Campur 14L Air)</span>
+</div>
+</div>
+<!-- Action Button -->
+<button class="w-full h-14 bg-primary text-on-primary rounded-xl font-label-lg text-label-lg flex items-center justify-center gap-space-xs shadow-md active:scale-95 transition-all mt-1" id="btn-complete-1" onclick="toggleTaskCompletion(1)">
+<span class="material-symbols-outlined text-[28px]">check_circle</span>
+<span>Tandai Selesai</span>
+</button>
+</div>
+<!-- Task Card 2 (PANEN MENDATANG) -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-md flex flex-col gap-space-sm">
+<div class="relative w-full h-32 rounded-lg overflow-hidden mb-1">
+<img class="w-full h-full object-cover" data-alt="Vibrant ripe red tomatoes hanging in Indonesian lush garden greenhouse with wooden stakes, soft natural sunlight, fresh agricultural bounty produce" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA4MZ0BmnIyaGtl9i2O7gW301_Mqn-3wlHW6dkNzh2tv9rwAscWk4ESZf4cqErtcp7AWrmjzdbUI5FE8ut-VUpje7KH5I5ycp7zxjuLtG0RPJbSW6f4Q7p_w502YvU_IRNbQQtlbum7oBOy6XnRJ6irHmtGMqwHGhZnuOL4Da4RTSLjWzhZBEhVNEg2UFNfCbF4lxNdIkvqKmxv8bCLSjWGOOnsTnMBzR2teW0Bx6h6d5_QFRjYF4jnxg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-space-sm">
+<span class="bg-surface-container-high text-on-surface font-label-sm text-label-sm px-3 py-1 rounded-full uppercase tracking-wider font-extrabold shadow">
+            Mendatang
+          </span>
+</div>
+</div>
+<div class="flex items-center justify-between gap-space-xs">
+<span class="font-label-md text-label-md text-secondary flex items-center gap-1">
+<span class="material-symbols-outlined text-[22px]">calendar_month</span>
+          20 Okt 2026
+        </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant bg-surface-container px-2.5 py-1 rounded-full">08:00 WIB</span>
+</div>
+<div>
+<h4 class="font-body-xl text-body-xl font-extrabold text-on-surface leading-snug">Panen Tomat Sayur</h4>
+<p class="font-body-md text-body-md text-on-surface-variant flex items-center gap-1.5 mt-1">
+<span class="material-symbols-outlined text-[20px] text-outline">nature_people</span>
+          Kebun Belakang • Jam 08:00 WIB
+        </p>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-lg flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[28px] text-primary">scale</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface">Target Panen:</span>
+<span class="font-body-md text-body-md text-on-surface-variant font-bold">Estimasi: 250 kg (Keranjang A1 - A8)</span>
+</div>
+</div>
+<!-- Voice Reminder Button -->
+<button class="w-full h-14 bg-surface-container text-on-surface rounded-xl font-label-lg text-label-lg flex items-center justify-center gap-space-xs shadow-sm active:scale-95 transition-all mt-1" id="voice-reminder-btn" onclick="playVoicePrompt()">
+<span class="material-symbols-outlined text-[28px] text-primary">record_voice_over</span>
+<span>Pasang Pengingat Suara</span>
+</button>
+</div>
+<!-- Task Card 3 (PENGAIRAN SAWAH) -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-md flex flex-col gap-space-sm">
+<div class="flex items-center justify-between gap-space-xs">
+<span class="font-label-md text-label-md text-secondary flex items-center gap-1">
+<span class="material-symbols-outlined text-[22px]">calendar_month</span>
+          24 Okt 2026
+        </span>
+<span class="bg-surface-container-high text-on-surface font-label-sm text-label-sm px-3 py-1 rounded-full uppercase tracking-wider font-extrabold">
+          Mendatang
+        </span>
+</div>
+<div>
+<h4 class="font-body-xl text-body-xl font-extrabold text-on-surface leading-snug">Pengairan Sawah Tahap 2</h4>
+<p class="font-body-md text-body-md text-on-surface-variant flex items-center gap-1.5 mt-1">
+<span class="material-symbols-outlined text-[20px] text-outline">water_drop</span>
+          Sawah Petak 2 • Buka Pintu Saluran Irigasi
+        </p>
+</div>
+<div class="bg-surface-container-low p-space-sm rounded-lg flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[24px] text-primary">schedule</span>
+<span class="font-body-md text-body-md text-on-surface font-semibold">Durasi: 4 Jam Aliran Penuh</span>
+</div>
+<button class="px-4 py-2 bg-surface-container-highest rounded-lg font-label-sm text-label-sm text-primary">Rincian</button>
+</div>
+</div>
+</div>
+<!-- Interactive Floating Action Button (FAB) -->
+<div class="fixed bottom-24 right-4 z-40 flex items-center gap-2">
+<div class="bg-inverse-surface text-inverse-on-surface font-label-md text-label-md px-4 py-2 rounded-full shadow-xl" id="fab-tooltip">
+      + Tambah Jadwal
+    </div>
+<button aria-label="Tambah Jadwal Baru" class="w-16 h-16 rounded-full bg-primary-container text-on-primary flex items-center justify-center shadow-2xl active:scale-90 transition-transform" onclick="addNewSchedule()">
+<span class="material-symbols-outlined text-[36px]">add</span>
+</button>
+</div>
+</div>
+<script>
+  function toggleTaskCompletion(taskId) {
+    const card = document.getElementById('task-card-' + taskId);
+    const btn = document.getElementById('btn-complete-1');
+    if (!card || !btn) return;
+
+    if (btn.dataset.completed === "true") {
+      btn.dataset.completed = "false";
+      btn.innerHTML = `<span class="material-symbols-outlined text-[28px]">check_circle</span><span>Tandai Selesai</span>`;
+      btn.className = "w-full h-14 bg-primary text-on-primary rounded-xl font-label-lg text-label-lg flex items-center justify-center gap-space-xs shadow-md active:scale-95 transition-all mt-1";
+    } else {
+      btn.dataset.completed = "true";
+      btn.innerHTML = `<span class="material-symbols-outlined text-[28px]">task_alt</span><span>Alhamdulillah Selesai!</span>`;
+      btn.className = "w-full h-14 bg-secondary text-on-secondary rounded-xl font-label-lg text-label-lg flex items-center justify-center gap-space-xs shadow-md active:scale-95 transition-all mt-1";
+      
+      // Simple celebration audio feedback via speech synthesis if available
+      if ('speechSynthesis' in window) {
+        const msg = new SpeechSynthesisUtterance("Bagus sekali pak tani! Tugas hari ini sudah ditandai selesai.");
+        msg.lang = 'id-ID';
+        window.speechSynthesis.speak(msg);
+      }
+    }
+  }
+
+  function playVoicePrompt() {
+    const btn = document.getElementById('voice-reminder-btn');
+    if (btn) {
+      btn.innerHTML = `<span class="material-symbols-outlined text-[28px] text-primary animate-bounce">volume_up</span><span>Pengingat Suara Aktif</span>`;
+      btn.classList.add('bg-secondary-container');
+    }
+    if ('speechSynthesis' in window) {
+      const msg = new SpeechSynthesisUtterance("Pengingat suara panen tomat tanggal dua puluh Oktober jam delapan pagi berhasil dipasang.");
+      msg.lang = 'id-ID';
+      window.speechSynthesis.speak(msg);
+    }
+  }
+
+  function addNewSchedule() {
+    if ('speechSynthesis' in window) {
+      const msg = new SpeechSynthesisUtterance("Silakan sebutkan nama tugas dan tanggal yang ingin ditambahkan.");
+      msg.lang = 'id-ID';
+      window.speechSynthesis.speak(msg);
+    }
+    const tooltip = document.getElementById('fab-tooltip');
+    if (tooltip) {
+      tooltip.innerText = "Membuka formulir...";
+      setTimeout(() => {
+        tooltip.innerText = "+ Tambah Jadwal";
+      }, 2000);
+    }
+  }
+</script></main><nav class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-surface-container-lowest/95 backdrop-blur-xl shadow-[0_-2px_12px_rgba(20,83,45,0.08)]" data-active-classes="text-primary-container font-label-sm"><div class="flex justify-around items-center h-20 px-space-xs"><a class="flex flex-col items-center justify-center flex-1 h-full py-1 text-on-surface-variant hover:text-on-surface active:scale-95 transition-all" data-path="beranda" href="#"><span class="material-symbols-outlined text-[28px] mb-0.5">home</span><span class="font-label-sm text-[13px] leading-tight">Beranda</span></a><a aria-current="page" class="flex flex-col items-center justify-center flex-1 h-full py-1 active:scale-95 transition-all text-primary-container font-label-sm" data-path="jadwal-tanam" href="#"><span class="material-symbols-outlined text-[28px] mb-0.5">calendar_month</span><span class="font-label-sm text-[13px] leading-tight">Jadwal</span></a><a class="flex flex-col items-center justify-center flex-1 h-full py-1 text-on-surface-variant hover:text-on-surface active:scale-95 transition-all" data-path="keuangan-tani" href="#"><span class="material-symbols-outlined text-[28px] mb-0.5">account_balance_wallet</span><span class="font-label-sm text-[13px] leading-tight">Keuangan</span></a><a class="flex flex-col items-center justify-center flex-1 h-full py-1 text-on-surface-variant hover:text-on-surface active:scale-95 transition-all" data-path="harga-pasar" href="#"><span class="material-symbols-outlined text-[28px] mb-0.5">trending_up</span><span class="font-label-sm text-[13px] leading-tight">Pasar</span></a><a class="flex flex-col items-center justify-center flex-1 h-full py-1 text-on-surface-variant hover:text-on-surface active:scale-95 transition-all" data-path="deteksi-hama" href="#"><span class="material-symbols-outlined text-[28px] mb-0.5">pest_control</span><span class="font-label-sm text-[13px] leading-tight">Hama</span></a></div></nav></body></html>
